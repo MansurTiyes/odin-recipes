@@ -5,39 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>An unorthodox Recipe book!</h1>
-    <img src="images/ramsay.jpg">
-    <p><em>Totally approved by Gordon Ramsay yeah</em></p>
+    <h1>An Unorthodox Recipe book!</h1>
+    <img class="center" src="images/ramsay.jpg">
+    <p class="note"><em>Totally approved by Gordon Ramsay yeah</em></p>
 
     <h2>What Is This Recipe Page About?</h2>
     <p><strong>Good Question!</strong></p>
     <p>It's a funny project created to list recipes for dishes I like. It's my first website, so I think it would be great project to try out</p>
 
     <h2>Here are the available recipes</h2>
-    <img src="images/carbonara.jpg" alt="Carbonara image"
-        width="500"
-        height="400"
-    >
-    <p><a href="recipes/carbonara.html">Delicious Italian Carbonara!</a></p>
+    <div class="row">
+        <img class="column" src="images/carbonara.jpg" alt="Carbonara image"
+        >
 
-    <img src="images/dumplings.jpg" alt="Pork Dumplings image"
-        width="500"
-        height="400"
-    >
-    <p><a href="recipes/dumplings.html">Legendary Chinese Dumplings!</a></p>
+        <img class = "column" src="images/dumplings.jpg" alt="Pork Dumplings image"
+        >
+        <div class="caption">
+            <p class="leftsub"><a href="recipes/carbonara.html">Delicious Italian Carbonara!</a></p>
+            <p class="rightsub"><a href="recipes/dumplings.html">Legendary Chinese Dumplings!</a></p>
+        </div>
+    </div>
+    <div class="row">
+        <img class = "column" src="images/Uzbek-Plov-Recipe-03.jpg" alt="Plov image"
+        >
 
-    <img src="images/Uzbek-Plov-Recipe-03.jpg" alt="Plov image"
-        width="600"
-        height="400"
-    >
-    <p><a href="recipes/plov.html">A dish through time - Uzbeks Plov!></a></p>
-
-    <img src="images/ramen.jpg" alt="Ramen image"
-        width="500"
-        height="400"
-    >
-    <p><a href="recipes/ramen.html">A Taste from delicate Japanese Cousin - Ramen!></a></p>
+        <img class = "column" src="images/ramen.jpg" alt="Ramen image"
+        >
+        <div class ="caption">
+            <p class="leftsub"><a href="recipes/plov.html">A dish through time - Uzbeks Plov!></a></p>
+            <p class="rightsub"><a href="recipes/ramen.html">A Taste from delicate Japanese Cousin - Ramen!></a></p>
+        </div>
+    </div>
 </body>
 </html>
